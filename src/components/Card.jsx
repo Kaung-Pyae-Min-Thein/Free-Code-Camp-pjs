@@ -22,6 +22,7 @@ export const Card = ({ quote, color, getRandom }) => {
         <button id="new-quote" onClick={() => getRandom()}>New Quote</button>
 
       </StyledButtons>
+      
     </StyledCard>
   );
 

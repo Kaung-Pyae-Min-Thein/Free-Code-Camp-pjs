@@ -51,6 +51,9 @@ function App() {
   return (
     <StyledApp color={color}>
       <Card color={color} quote={quote} getRandom={getRandom} />
+      <footer>
+        Developed by <a target="_blank" rel="noreferrer" href='https://github.com/Kaung-Pyae-Min-Thein'>Kaung Pyae Min Thein</a>
+      </footer>
     </StyledApp>
   );
 }

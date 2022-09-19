@@ -7,5 +7,13 @@ display: flex;
 justify-content: center;
 align-items: center;
 height: 100vh;
+flex-direction: column;
 background-color: ${props => props.color || "black"};
+
+footer{
+  color: #fff;
+  a{
+    color: #fff;
+  }
+}
 `;
