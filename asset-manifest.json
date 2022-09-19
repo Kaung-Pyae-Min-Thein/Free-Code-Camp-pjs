@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Free-Code-Camp-pjs/static/css/main.99c9cda5.css",
+    "main.js": "/Free-Code-Camp-pjs/static/js/main.3907a02c.js",
+    "index.html": "/Free-Code-Camp-pjs/index.html",
+    "main.99c9cda5.css.map": "/Free-Code-Camp-pjs/static/css/main.99c9cda5.css.map",
+    "main.3907a02c.js.map": "/Free-Code-Camp-pjs/static/js/main.3907a02c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.99c9cda5.css",
+    "static/js/main.3907a02c.js"
+  ]
+}
