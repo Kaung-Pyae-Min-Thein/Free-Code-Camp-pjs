@@ -9,3 +9,4 @@ flex-direction: column;
 background-color: #fff;
 color: ${props => props.color || "black"};
 `;
+

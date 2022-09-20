@@ -5,7 +5,7 @@ export const Card = ({ quote, color, getRandom }) => {
   return (
     <StyledCard color={color} id="quote-box">
 
-      <StyledQuote>
+      <StyledQuote key={quote.author}>
         <h1 id="text"><FaQuoteLeft />{quote.quote} <FaQuoteRight /></h1>
         <h2 id="author">- {quote.author}</h2>
       </StyledQuote>
@@ -22,7 +22,7 @@ export const Card = ({ quote, color, getRandom }) => {
         <button id="new-quote" onClick={() => getRandom()}>New Quote</button>
 
       </StyledButtons>
-      
+
     </StyledCard>
   );
 

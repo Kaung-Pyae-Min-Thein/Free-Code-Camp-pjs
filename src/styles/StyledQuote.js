@@ -1,8 +1,17 @@
-import styled from "styled-components";
+import styled, { keyframes } from "styled-components";
 
-
+const fadeInAnimation = keyframes`
+from{
+  opacity: 0;
+}
+to{
+  opacity: 1;
+}
+`;
 
 export const StyledQuote = styled.div`
+animation-name: ${fadeInAnimation};
+animation-duration: 1s;
   width: 450px;
   svg{
     margin-right: 0.4em;
